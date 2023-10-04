@@ -1,0 +1,87 @@
+
+#units{border: solid;}
+.notes{border: solid;}
+#spec {border: solid;}
+
+body{ margin: 0;
+    padding: 0;
+    width: 100vh;
+    height: 300vh;
+
+}
+.canvas{ position: relative;}
+
+#box1{width: 100px;
+height: 100px;
+background-color: red;
+border-radius: 20%;
+bottom: 1;
+right: 0;
+position: absolute;
+}
+
+#circle1 {border-radius: 50%;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    width: 100px;
+    top: 1;
+    left: 1;
+    z-index: 0;
+}
+#circle2 {width: 100px;
+    height: 100px;
+    background-color:blue;
+    border-radius: 50%;
+    bottom: 1;
+    left: 1;
+    position: absolute;
+
+}
+#box2{border-radius: 10%;
+    height: 100px;
+    background-color: green;
+    width: 100px;
+    position: absolute;
+    top: 1;
+    right: 1;
+}
+
+header { height: 100px;
+width: 100px;
+background-color: black;
+border: 2px solid purple;
+
+position: fixed;
+top: 0;
+left: 30;
+z-index: 90;
+color: aliceblue;
+}
+
+#sticky-div{
+    position: sticky;
+    top: 20px;
+    right: 0%;
+}
+header{width: 100vw;
+    height: 50px;
+    background-color: grey;
+
+}
+html{width: 80vw;
+    min-height: 80vh;
+    background-color: aqua;
+    z-index: -1;
+    margin:0 auto;
+}
+footer{right: 50;
+    bottom: 50;
+    border: 2px solid white;
+    margin: 0;
+    padding-top: 5px;
+    margin-left: 10px;
+    z-index: -100;
+
+
+}
